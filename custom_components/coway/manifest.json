@@ -14,7 +14,7 @@
     "cowayaio"
   ],
   "requirements": [
-    "cowayaio==0.2.4"
+    "cowayaio @ git+https://github.com/metril/cowayaio@939a1bfe0443a7f3fc9978daf44d754bfa47f050"
   ],
-  "version": "0.6.1"
+  "version": "0.6.2"
 }

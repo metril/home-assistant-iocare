@@ -14,6 +14,8 @@
 
 **Use of this integration requires that purifiers have been registered with the IoCare+ app**
 
+**0.6.2:** Coway changed the purifier page format in Sept 2026 (upstream issue #100), which broke `cowayaio==0.2.4`. This release pins a patched `cowayaio` from `metril/cowayaio` (upstream PR RobertD502/cowayaio#19) via a git URL in `manifest.json`. TODO: re-pin to a PyPI release once upstream ships the fix.
+
 
 ## Confirmed Working Models
 - [250S](https://cowaymega.com/products/airmega-250s)
